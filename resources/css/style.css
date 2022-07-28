@@ -1,0 +1,17 @@
+/* @media screen and (max-width: 668px) {
+  .hidden {
+    display: none;
+  }
+}
+@media screen and (min-width: 669px) and (max-width: 768px) {
+  .hidden {
+    display: none;
+  }
+} */
+.carousel-item img {
+  width: 100%;
+  height: 700px;
+}
+.carousel-item h2 {
+  font-size: 65px;
+}
