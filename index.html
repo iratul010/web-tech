@@ -136,7 +136,7 @@
         <div class="d-flex flex-column align-items-center">
           <!-- corse-heading -->
           <div class="text-center align-items-center" style="width: 606px">
-            <h2><span>Discover Our Popular</span> <br /><span> Courses</span></h2>
+            <h2 class="fs-1 fw-bolder"><span>Discover Our Popular</span> <br /><span> Courses</span></h2>
             <p>
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
               layout
@@ -240,7 +240,7 @@
           </div>
           <div class="col d-flex flex-column" style="width: 606px">
             <div class="col">
-              <h2><span>Explore The learning</span> <br /><span>Institute</span></h2>
+              <h2 class="fs-1 fw-bolder"><span>Explore The learning</span> <br /><span>Institute</span></h2>
               <p class="w-100">
                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
                 form, by injected humour, or randomised words which don't look even slightly believable.
@@ -267,6 +267,127 @@
               </div>
               <div><button type="button" class="btn btn-primary px-5 py-3">Read More</button></div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section class="container" style="height: 300px; margin-top: 130px; background-color: #289bde">
+        <div class="row align-items-center text-center justify-content-center text-white" style="padding-top: 100px">
+          <div class="col-6" style="width: 528px; height: 130px">
+            <h2>Ready to join?</h2>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+              layout.
+            </p>
+          </div>
+          <div class="col-6">
+            <button
+              type="button"
+              class="btn btn-light px-5 py-3"
+              style="color: #289bde"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Register Now
+            </button>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-primary" id="exampleModalLabel">Sign In</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- body -->
+                  <form class="text-dark">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" />
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                  <!-- body-end -->
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Meet Our Successfull Students -->
+      <section class="conatiner" style="margin-top: 130px">
+        <div class="row gy-5">
+          <div class="col-12 ps-4">
+            <h2 class="fs-1 fw-bolder">
+              <span>Meet Our Successfull</span> <br />
+              <span> Students</span>
+            </h2>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+              layout.
+            </p>
+          </div>
+          <div class="col-12">
+            <div class="container d-flex gap-5">
+              <!-- 1 -->
+              <div class="col d-flex flex-column border">
+                <div class="col">
+                  <img style="width: 100%; height: 300px" class="img-fluid" src="./resources/img/students/student-1.png" alt="" />
+                </div>
+                <div class="col pt-3 ps-3">
+                  <h5 class="fw-semibold">Awlad Hossain</h5>
+                  <p>UIUX Designer</p>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="col d-flex flex-column border">
+                <div class="col">
+                  <img style="width: 100%; height: 300px" class="img-fluid" src="./resources/img/students/student-2.png" alt="" />
+                </div>
+                <div class="col pt-3 ps-3">
+                  <h5 class="fw-semibold">Jannatul Islam</h5>
+                  <p>Motion Design</p>
+                </div>
+              </div>
+              <!-- 3 -->
+              <div class="col d-flex flex-column border">
+                <div class="col">
+                  <img style="width: 100%; height: 300px" class="img-fluid" src="./resources/img/students/student-3.png" alt="" />
+                </div>
+                <div class="col pt-3 ps-3">
+                  <h5 class="fw-semibold">Imran Hossain</h5>
+                  <p>Graphic Designer</p>
+                </div>
+              </div>
+              <!-- 4 -->
+              <div class="col d-flex flex-column border">
+                <div class="col">
+                  <img style="width: 100%; height: 300px" class="img-fluid" src="./resources/img/students/student-4.png" alt="" />
+                </div>
+                <div class="col pt-3 ps-3">
+                  <h5 class="fw-semibold">Nishi Akter</h5>
+                  <p>Web Developer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- btn -->
+          <div class="col-12 text-center">
+            <button type="button" class="btn btn-primary px-5 py-3">View All</button>
           </div>
         </div>
       </section>
