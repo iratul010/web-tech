@@ -19,3 +19,7 @@ body {
 .carousel-item h2 {
   font-size: 65px;
 }
+.link a {
+  color: white;
+  text-decoration: none;
+}
