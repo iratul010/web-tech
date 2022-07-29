@@ -26,7 +26,7 @@
   </head>
   <body>
     <!-- header-start -->
-    <header class="container">
+    <header class="container-xl container-md container-sm">
       <nav class="navbar navbar-expand-lg bg-light py-5">
         <div class="container-fluid">
           <a class="navbar-brand fs-4 fw-semibold" href="#">Web Tech</a>
@@ -68,7 +68,7 @@
         </div>
       </nav>
       <!-- carousel -->
-      <section class="mt-5" id="home">
+      <section class="mt-5 w-100" id="home ">
         <div id="carouselExampleCaptions" id="carouselExampleInterval" class="carousel slide" data-bs-ride="true">
           <div class="carousel-indicators">
             <button
@@ -84,19 +84,23 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active position-relative" data-bs-interval="10000">
-              <div><img src="./resources/img/cover/cover-1.png" class="d-block w-100" alt="..." /></div>
+              <div class="cars-img">
+                <img class="img-fluid d-block w-100" src="./resources/img/cover/cover-1.png" alt="..." />
+              </div>
 
-              <div class="carousel-caption position-absolute top-50 start-50 translate-middle w-100">
-                <h2><span>Get Started Digital</span> <br /><span>Learning</span></h2>
+              <div class="carousel-caption position-absolute top-50 start-50 translate-middle w-100 cars-custo">
+                <h2 class="digital"><span>Get Started Digital</span> <br /><span>Learning</span></h2>
                 <p>
                   It is a long established fact that a reader will be distracted by the readable content of a page when looking at
                   its layout.
                 </p>
-                <button type="button" class="btn btn-primary px-5 py-3">Get Started</button>
+                <button type="button" class="btn btn-primary px-5 py-3 w-15">Get Started</button>
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="20000">
-              <img src="./resources/img/cover/cover-2.jpg" class="d-block w-100" alt="..." />
+              <div class="cars-img">
+                <img class="img-fluid d-block w-100" src="./resources/img/cover/cover-2.jpg" alt="..." />
+              </div>
               <div class="carousel-caption position-absolute top-50 start-50 translate-middle w-100">
                 <h2><span>Get Started Digital</span> <br /><span>Learning</span></h2>
                 <p>
@@ -107,7 +111,9 @@
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="30000">
-              <img src="./resources/img/cover/cover-3.jpg" class="d-block w-100" alt="..." />
+              <div class="cars-img">
+                <img class="img-fluid d-block w-100" src="./resources/img/cover/cover-3.jpg" alt="..." />
+              </div>
               <div class="carousel-caption position-absolute top-50 start-50 translate-middle w-100">
                 <h2><span>Get Started Digital</span> <br /><span>Learning</span></h2>
                 <p>
@@ -131,11 +137,11 @@
     </header>
     <!-- header-end -->
     <!-- main-start -->
-    <main class="container" id="courses">
-      <section class="container" style="margin-top: 130px">
+    <main class="container-xl container-md container-sm" id="courses">
+      <section class="container container-sm container-md" style="margin-top: 130px">
         <div class="d-flex flex-column align-items-center">
           <!-- corse-heading -->
-          <div class="text-center align-items-center" style="width: 606px">
+          <div class="text-center align-items-center col-xl-12" style="width: 50%">
             <h2 class="fs-1 fw-bolder"><span>Discover Our Popular</span> <br /><span> Courses</span></h2>
             <p>
               It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
@@ -144,13 +150,15 @@
           </div>
           <!-- courses -->
           <div style="margin-top: 50px">
-            <div class="row row-cols-2 g-3">
+            <div class="row row-cols-xl-2 g-3">
               <!-- 1 -->
-              <div class="col">
+              <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 course">
                 <div class="p-3 border bg-light">
-                  <div class="d-flex flex-row">
-                    <div class="col-4"><img src="./resources/img/course/course-1.png" alt="" /></div>
-                    <div class="col-8 ps-4 pt-5">
+                  <div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-column w-100">
+                    <div class="col-lg-4 col-md-4 course-pic">
+                      <img class="w-100" style="width: 100%" src="./resources/img/course/course-1.png" alt="" />
+                    </div>
+                    <div class="col-lg-8 col-md-8 ps-4 pt-5 course-title">
                       <h2 class="fs-4 fw-bolder">Fundamental Of UI/UX Design</h2>
                       <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                       <h5 class="text-primary">price:20$</h5>
@@ -159,11 +167,13 @@
                 </div>
               </div>
               <!-- 2 -->
-              <div class="col">
+              <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 course">
                 <div class="p-3 border bg-light">
-                  <div class="d-flex flex-row">
-                    <div class="col-4"><img src="./resources/img/course/course-2.png" alt="" /></div>
-                    <div class="col-8 ps-4 pt-5">
+                  <div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-column w-100">
+                    <div class="col-lg-4 col-md-4 course-pic">
+                      <img class="w-100" style="width: 100%" src="./resources/img/course/course-2.png" alt="" />
+                    </div>
+                    <div class="col-lg-8 col-md-8 ps-4 pt-5 course-title">
                       <h2 class="fs-4 fw-bolder">Fundamental Of UI/UX Design</h2>
                       <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                       <h5 class="text-primary">price:20$</h5>
@@ -172,11 +182,13 @@
                 </div>
               </div>
               <!-- 3 -->
-              <div class="col">
+              <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 course">
                 <div class="p-3 border bg-light">
-                  <div class="d-flex flex-row">
-                    <div class="col-4"><img src="./resources/img/course/course-3.png" alt="" /></div>
-                    <div class="col-8 ps-4 pt-5">
+                  <div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-column w-100">
+                    <div class="col-lg-4 col-md-4 course-pic">
+                      <img class="w-100" style="width: 100%" src="./resources/img/course/course-3.png" alt="" />
+                    </div>
+                    <div class="col-lg-8 col-md-8 ps-4 pt-5 course-title">
                       <h2 class="fs-4 fw-bolder">Fundamental Of UI/UX Design</h2>
                       <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                       <h5 class="text-primary">price:20$</h5>
@@ -185,11 +197,13 @@
                 </div>
               </div>
               <!-- 4 -->
-              <div class="col">
+              <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 course">
                 <div class="p-3 border bg-light">
-                  <div class="d-flex flex-row">
-                    <div class="col-4"><img src="./resources/img/course/course-4.png" alt="" /></div>
-                    <div class="col-8 ps-4 pt-5">
+                  <div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-column w-100">
+                    <div class="col-lg-4 col-md-4 course-pic">
+                      <img class="w-100" style="width: 100%" src="./resources/img/course/course-4.png" alt="" />
+                    </div>
+                    <div class="col-lg-8 col-md-8 ps-4 pt-5 course-title">
                       <h2 class="fs-4 fw-bolder">Fundamental Of UI/UX Design</h2>
                       <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                       <h5 class="text-primary">price:20$</h5>
@@ -198,11 +212,13 @@
                 </div>
               </div>
               <!-- 5 -->
-              <div class="col">
+              <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 course">
                 <div class="p-3 border bg-light">
-                  <div class="d-flex flex-row">
-                    <div class="col-4"><img src="./resources/img/course/course-5.png" alt="" /></div>
-                    <div class="col-8 ps-4 pt-5">
+                  <div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-column w-100">
+                    <div class="col-lg-4 col-md-4 course-pic">
+                      <img class="w-100" style="width: 100%" src="./resources/img/course/course-5.png" alt="" />
+                    </div>
+                    <div class="col-lg-8 col-md-8 ps-4 pt-5 course-title">
                       <h2 class="fs-4 fw-bolder">Fundamental Of UI/UX Design</h2>
                       <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                       <h5 class="text-primary">price:20$</h5>
@@ -211,11 +227,13 @@
                 </div>
               </div>
               <!-- 6 -->
-              <div class="col">
+              <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 course">
                 <div class="p-3 border bg-light">
-                  <div class="d-flex flex-row">
-                    <div class="col-4"><img src="./resources/img/course/course-6.png" alt="" /></div>
-                    <div class="col-8 ps-4 pt-5">
+                  <div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-column w-100">
+                    <div class="col-lg-4 col-md-4 course-pic">
+                      <img class="w-100" style="width: 100%" src="./resources/img/course/course-6.png" alt="" />
+                    </div>
+                    <div class="col-lg-8 col-md-8 ps-4 pt-5 course-title">
                       <h2 class="fs-4 fw-bolder">Fundamental Of UI/UX Design</h2>
                       <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                       <h5 class="text-primary">price:20$</h5>
@@ -235,10 +253,10 @@
       <!-- Explore The learning Institute-->
       <section class="container" style="margin-top: 122px; background-color: #f4fafd" id="deals">
         <div class="row align-items-center">
-          <div class="col-6 ps-0">
+          <div class="col-xl-6 ps-0">
             <img style="height: 800px" class="img-fluid" src="./resources/img/working.png" alt="" />
           </div>
-          <div class="col d-flex flex-column" style="width: 606px">
+          <div class="col-xl-6 d-flex flex-column" style="width: 606px">
             <div class="col">
               <h2 class="fs-1 fw-bolder"><span>Explore The learning</span> <br /><span>Institute</span></h2>
               <p class="w-100">
@@ -513,7 +531,7 @@
         </div>
       </section>
 
-      <section class="container mt-5" style="margin-top: 120px; height: 200px">
+      <section class="container mt-5 hidden" style="margin-top: 120px; height: 200px">
         <div class="row text-center align-items-center">
           <div class="col-12 mt-5"><h2 class="fs-1 fw-bolder">Trusted by over 800+ companies</h2></div>
           <div class="col-12 container overflow-hidden text-center row pt-3">

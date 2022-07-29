@@ -1,13 +1,59 @@
-/* @media screen and (max-width: 668px) {
+@media screen and (max-width: 668px) {
   .hidden {
     display: none;
+  }
+  .cars-custo h2 {
+    font-size: 18px !important;
+    font-weight: 300;
+  }
+  .cars-custo p {
+    font-size: 10px !important;
+    font-weight: 300;
+  }
+  .cars-custo button {
+    width: 150px;
+    height: 60px;
+  }
+  .cars-img img {
+    margin: 0 auto;
+    width: 100% !important;
+    height: 262px !important;
+  }
+  .btn {
+    height: 40px !important;
+    padding: 0 !important;
+    font-size: 12px !important;
+    width: 120px !important;
+  }
+  .course {
+    margin: 0 auto !important;
+    width: 70% !important;
+  }
+  .course-title {
+    align-items: center;
+    width: 100% !important;
+  }
+  .course-title h2 {
+    font-size: 16px !important;
+  }
+  .course-title p {
+    font-size: 12px !important;
+  }
+  .course-pic {
+    width: 100% !important;
+    align-items: center;
+    margin: 0 auto !important;
+  }
+  .course-pic img {
+    width: 100% !important;
+    height: 40% !important;
   }
 }
 @media screen and (min-width: 669px) and (max-width: 768px) {
   .hidden {
     display: none;
   }
-} */
+}
 body {
   font-family: "Poppins", sans-serif;
 }
