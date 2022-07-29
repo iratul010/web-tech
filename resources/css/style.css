@@ -48,10 +48,22 @@
     width: 100% !important;
     height: 40% !important;
   }
+  .institute-custom {
+    width: 334px;
+    height: 224px;
+  }
+  .institute-custom img {
+    width: 100% !important;
+    height: 100% !important;
+  }
 }
 @media screen and (min-width: 669px) and (max-width: 768px) {
   .hidden {
     display: none;
+  }
+  .success-custom {
+    width: 335px !important;
+    height: 300px !important;
   }
 }
 body {
